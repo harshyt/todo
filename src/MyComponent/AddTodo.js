@@ -10,7 +10,6 @@ export const AddTodo = (props) => {
             alert("empty fields");
         else 
             {
-                // console.log(title)
                 props.addTodo(title, desc)
             }
     }
